@@ -1,10 +1,10 @@
 {
-  "name": "tempo-mcp",
-  "version": "1.0.0",
+  "name": "tempo-mcp-server",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "tempo-mcp": "./dist/index.js"
+    "tempo-mcp-server": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc && chmod 755 dist/index.js"
